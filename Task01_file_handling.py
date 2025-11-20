@@ -1,7 +1,7 @@
 import os 
 
 def write_to_file():
-    text = input("Enter tect to write: ")
+    text = input("Enter text to write: ")
     with open("data.txt", "w") as file:
         file.write(text)
         print("Text written to file successfully")
